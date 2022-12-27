@@ -9,7 +9,7 @@ import java.util.List;
 public class homeController {
 
     @GetMapping
-    public List<String> home() {
-        return List.of("Hezha","Dyari");
+    public String home() {
+        return "✨✨ Welcome to SpringBoot ✨✨";
     }
 }
